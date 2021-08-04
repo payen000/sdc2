@@ -1,0 +1,66 @@
+.table {
+    height: 500px;
+}
+
+td, th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.seleccionable:hover {
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    width: 100%;
+    max-width: 200px;
+}
+
+.separador{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.content {
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+
+.main-header {
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 605px;
+    background-image: url('/sdc2/img/poster.png');
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #00a087;
+}
+
+.registro {
+    top: 22.5%;
+    position: relative;
+}
+
+.registro .row:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.registro .row:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.registro .row:nth-child(3) {
+  margin-bottom: 20px;
+}
