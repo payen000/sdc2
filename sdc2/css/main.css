@@ -4,11 +4,26 @@
 
 td, th{
     text-align: center;
-    vertical-align: middle;
 }
 
 .seleccionable:hover {
     background-color: black;
+    color: white;
+}
+
+.clickable {
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 92px;
+    padding-left: 0px;
+    width: 100%;
+    display: block;
+    margin-bottom: -100px;
+    margin-top: -10px;
+}
+
+.clickable:hover {
     color: white;
 }
 
@@ -36,6 +51,10 @@ td, th{
     background-position: top center;
     height: 605px;
     background-image: url('/sdc2/img/poster.png');
+}
+
+.titulo{
+    font-weight: bold;
 }
 
 .navbar {

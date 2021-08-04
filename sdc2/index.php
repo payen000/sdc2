@@ -19,14 +19,14 @@
             <div class='main-header'>
                 <div class='registro'>
                     <div class='row centered'>
-                        <h2>2º. Simposio de Divulgación de la ciencia</h2>
+                        <h2 class='titulo'>2º. Simposio de Divulgación de la ciencia</h2>
                     </div>
                     <div class='row centered'>
-                        <h3>una emergencia climática</h3>
+                        <h3 class='titulo'>una emergencia climática</h3>
                     </div>
 
                     <div class='row centered'>
-                        <h4>3, 4 y 5 de noviembre de 2021</h4>
+                        <h4 class='titulo'>3, 4 y 5 de noviembre de 2021</h4>
                     </div>
                             
                     <div class='row centered'><span>
@@ -131,36 +131,9 @@
                 <h2><span>Programa</span></h2>
             </div>
 
-            <table class="table table-light">
-              <thead>
-                <tr>
-                  <th scope="row"></th>
-                  <td colspan="1">3 Nov</td>
-                  <td>4 Nov</td>
-                  <td>5 Nov</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">9:00</th>
-                  <td class='seleccionable'>plática 1</td>
-                  <td class='seleccionable'>plática 4</td>
-                  <td class='seleccionable'>plática 7</td>                  
-                </tr>
-                <tr>
-                  <th scope="row">10:30</th>
-                  <td class='seleccionable' colspan="1">plática 2</td>
-                  <td class='seleccionable'>plática 5</td>
-                  <td class='seleccionable'>plática 8</td>
-                </tr>
-                <tr>
-                  <th scope="row">12:00</th>
-                  <td class='seleccionable' colspan="1">plática 3</td>
-                  <td class='seleccionable'>plática 6</td>
-                  <td class='seleccionable'>plática 9</td>
-                </tr>
-              </tbody>
-            </table>
+            <?php
+                require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/programa.php');
+            ?>
 
 
             <!-- fin programa -->
