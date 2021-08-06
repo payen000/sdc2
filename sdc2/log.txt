@@ -1,0 +1,1 @@
+arreglar como se ven las tarjetas del programa en modo de escritorio y homogenizarlas todas (nomas la primera esta actualizada)

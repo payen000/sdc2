@@ -1,30 +1,95 @@
-.table {
-    height: 500px;
+/* formato del programa */
+
+.intermission {
+    background-color: rgb(242, 248, 255)
 }
 
-td, th{
-    text-align: center;
+.card {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
-.seleccionable:hover {
-    background-color: black;
-    color: white;
+.card-row {
+    padding: 1.5rem 1rem;
 }
 
-.clickable {
-    padding-top: 10px;
-    text-decoration: none;
-    color: black;
-    padding-bottom: 92px;
-    padding-left: 0px;
+.card-body {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.row.card-bottom {
+    margin-bottom: 12px;
+}
+
+/* formato de calendario */
+
+.date {
+    margin-bottom: 30px;
+}
+
+
+/* formato de contenido */
+
+body{
+    font-family: Source Sans Pro,Helvetica,sans-serif !important;
+}
+
+.dark {
+    background-color: #070707 !important;
+}
+
+.nav-link.active {
+    font-weight: 400;
+}
+
+#registry-button {
+    background-color: #f64c69;
+    border-color: #f65c74;
+    width: 180px;
+    height: 45px;
+    padding: 10px;
+    box-shadow: black 0px 0px 8px 0px;
+    text-shadow: 0px 1px 3.5px black;
+    animation: brightness 4s infinite;
+}
+
+#commitee {
+    height: 1250px;
+}
+
+#contact, #subjects{
+    height: 320px;
+}
+
+#objective {
+    height: 425px;
+}
+
+#introduction{
+    height: 640px;
+}
+
+#calendar {
+    height: 665px;
+}
+
+#navbarNavDropdown {
+    left: 0px;
+    top: 55px;
     width: 100%;
-    display: block;
-    margin-bottom: -100px;
-    margin-top: -10px;
 }
 
-.clickable:hover {
-    color: white;
+#introduction, #contact{
+    background-color: #040404;
+    color: #ece9e8;
+}
+
+.section{
+    margin-bottom: 45px;
+}
+
+.day {
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -33,53 +98,124 @@ td, th{
 }
 
 .separador{
-    margin-top: 50px;
     margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+/* alineaciones de texto */
+
+.justified{
+    text-align: justify;
 }
 
 .centered{
     text-align: center;
 }
 
+.righted{
+    text-align: right;
+}
+
+.lefted{
+    text-align: left;
+}
+
 .content {
-    margin-top: 50px;
-    overflow-x: hidden;
+    margin-top: 55px;
+    min-width: 320px;
 }
 
 .main-header {
     background-repeat: no-repeat;
     background-position: top center;
+    background-image: url('/sdc2/img/poster2.png');
+    background-size: cover;
     height: 605px;
-    background-image: url('/sdc2/img/poster.png');
 }
 
-.titulo{
+.title{
     font-weight: bold;
+    font-size: 36px;
+    text-transform: lowercase;
 }
 
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 100;
     width: 100%;
-    height: 50px;
+    height: 55px;
     background-color: #00a087;
 }
 
-.registro {
-    top: 22.5%;
+.register {
+    top: 50px;
     position: relative;
+    text-shadow: 0px 0px 0.5px black;
 }
 
-.registro .row:nth-child(1) {
+.register .row:nth-child(1) {
   margin-bottom: 5px;
 }
 
-.registro .row:nth-child(2) {
+.register .row:nth-child(2) {
   margin-bottom: 20px;
 }
 
-.registro .row:nth-child(3) {
+.register .row:nth-child(3) {
   margin-bottom: 20px;
+}
+
+.footer-bottom {
+    background-color: #212529;
+    color: white;
+}
+
+.row.footer-data.footer-end {
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 767px) {
+  #navbarNavDropdown{
+    position: fixed;
+    width: 100%;
+  }
+
+  .event-button{
+    width: 60%;
+    height: 50px;
+    padding-top: 15px;
+  }
+
+  .button-container{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .nav-item {
+    border-top: 0.5px solid white;
+  }
+}
+
+
+
+@keyframes brightness{
+    40%{
+        filter: brightness(1.0);
+    }
+
+    50%{
+        filter: brightness(1.3);
+    }
+
+    60%{
+        filter: brightness(1.0);
+    }
 }
