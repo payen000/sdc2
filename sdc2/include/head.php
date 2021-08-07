@@ -7,13 +7,13 @@
     <meta name="author" content="Payen-Sandoval, A.">
     <link rel="icon" href="/sdc2/icon.jpg">
 
-    <title>sdc2 2020 - Universidad Iberoamericana</title>
+    <title>sdc2 2021</title>
 
     <!-- bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
 
     <link href="/sdc2/css/main.css" rel="stylesheet">
 </head>

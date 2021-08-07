@@ -9,37 +9,35 @@
             require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/navbar.php');
         ?> 
         <div class="content">
-            <div class='main-header'>
+            <div id='main-header'>
                 <div class="container">
                     <div class='register'>
-                        <div class='row centered'>
+                        <div class='row'>
                             <h2 class='title'>2.° Simposio de Divulgación de la ciencia</h2>
                         </div>
-                        <div class='row centered'>
+                        <div class='row'>
                             <h3 class='title'>una emergencia climática</h3>
                         </div>
 
-                        <div class='row centered'>
-                            <h4 class='title'>8, 9 y 10 de noviembre de 2021</h4>
+                        <div class='row'>
+                            <h4 class='title'>noviembre 16, 17 y 18</h4>
                         </div>
-                                
+                         
                         <div class='row centered'><span>
                             <a id="registry-button" class="btn btn-primary" href="#" role="button">Registro</a></span>
                         </div>
+                    
                     </div>
                 </div>
             </div>
 
             <div id="introduction">
                 <hr class='separador' id='presentacion'>
-
                 <div class="container">
-
                     <div class="row centered">
                         <h1 class='section'>Presentación
                         </h1>
                     </div>
-
                     <div class="row justified">
                         <span class="date lead">
                             Lorem ipsum dolor sit amet consectetur adipiscing elit tempus maecenas dapibus, lectus purus cursus praesent habitant proin rhoncus curabitur magnis, lacinia laoreet semper litora nisl duis sapien sagittis natoque. In suscipit maecenas nostra ultrices torquent primis scelerisque, penatibus quam tortor eleifend nam venenatis, nec rutrum mollis dapibus turpis vulputate. Praesent potenti inceptos augue proin platea luctus quis, lectus et natoque neque urna conubia a fringilla, magna eget rutrum faucibus ullamcorper pharetra.
@@ -49,9 +47,7 @@
             </div>
 
             <div id="objective">
-
                 <hr class='separador' id='objetivos'>
-
                 <div class="container">
                     <div  class="row centered">
                         <h2 class='section'><span>Objetivo</span></h2>
@@ -67,12 +63,10 @@
             
             <div id="subjects">
                 <hr class='separador' id='temas'>
-
                 <div class="container">
                     <div class="row centered">
                         <h2 class='section'><span>Temas</span></h2>
                     </div>
-
                     <div class="row centered">
                         <span class="date lead">
                             Divulgación
@@ -216,5 +210,6 @@
         <?php
             require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/footer.php');
         ?>
+    <script src="/sdc2/js/script.js"></script>
     </body>
 </html>
