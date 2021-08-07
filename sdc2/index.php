@@ -24,7 +24,7 @@
                         </div>
                          
                         <div class='row centered'><span>
-                            <a id="registry-button" class="btn btn-primary" href="#" role="button">Registro</a></span>
+                            <a id="registry-button" class="btn btn-primary" href="https://es.wikipedia.org" target="_blank" role="button">Registro</a></span>
                         </div>
                     
                     </div>

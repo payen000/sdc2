@@ -40,6 +40,7 @@ body{
 
 .nav-link.active {
     font-weight: 400;
+    cursor: pointer;
 }
 
 #registry-button {

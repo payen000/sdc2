@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark dark" align="center">
+<nav id ="topbar" class="navbar navbar-expand-md navbar-dark bg-dark dark" align="center">
     <div class="container">
       <a class="navbar-brand" pointer="main-header">SDC2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse navbar-dark bg-dark centered dark" style='opacity: 0.9; font-weight: bold;' id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <div class="nav-link active" aria-current="page" pointer="main-header">Inicio</a>
+            <div class="nav-link active" aria-current="page" pointer="topbar">Inicio</a>
           </li>
           <li class="nav-item">
             <div class="nav-link active" pointer="presentacion">Presentación</a>
