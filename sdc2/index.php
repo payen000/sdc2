@@ -9,7 +9,7 @@
             require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/navbar.php');
         ?> 
         <div class="content">
-            <div id='main-header'>
+            <div id='main-header' title="banner">
                 <div class="container">
                     <div class='register'>
                         <div class='row'>
@@ -23,7 +23,7 @@
                             <h4 class='title'>noviembre 16, 17 y 18</h4>
                         </div>
                          
-                        <div class='row centered'><span>
+                        <div class='row centered' title="renglón de botón de registro"><span title="botón de registro">
                             <a id="registry-button" class="btn btn-primary" href="https://es.wikipedia.org" target="_blank" role="button">Registro</a></span>
                         </div>
                     
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div id="introduction">
+            <div id="introduction" title="introducción">
                 <hr class='separador' id='presentacion'>
                 <div class="container">
                     <div class="row centered">
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <div id="objective">
+            <div id="objective" title="objetivo">
                 <hr class='separador' id='objetivos'>
                 <div class="container">
                     <div  class="row centered">
@@ -61,7 +61,7 @@
                 </div>
             </div>
             
-            <div id="subjects">
+            <div id="subjects" title="temas">
                 <hr class='separador' id='temas'>
                 <div class="container">
                     <div class="row centered">
@@ -81,7 +81,7 @@
                 </div>
             </div>
 
-            <div id="calendar">
+            <div id="calendar" title="calendario">
                 <hr class='separador' id='fechas'>
 
                 <div class="container">
@@ -123,7 +123,7 @@
                 require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/programa.php');
             ?>
            
-            <div id="commitee">
+            <div id="commitee" title="comité">
                 <hr class='separador' id='comite'>
 
                 <div class="container">
@@ -186,7 +186,7 @@
                 </div>
             </div>
 
-            <div id="contact">
+            <div id="contact" title="contacto">
                 <hr class='separador' id='contacto'>
 
                 <div class="container">

@@ -1,4 +1,4 @@
-<div id='schedule'>
+<div id='schedule' title="programa">
   <hr class='separador' id='programa'>
 
   <div class="container">
