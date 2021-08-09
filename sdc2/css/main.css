@@ -21,6 +21,11 @@
     margin-bottom: 12px;
 }
 
+.speaker {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 /* formato de calendario */
 
 .date {
@@ -29,9 +34,25 @@
 
 
 /* formato de contenido */
+.vertical-center{
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.activate{
+    opacity: 0%;
+}
 
 body{
-    font-family: Source Sans Pro,Helvetica,sans-serif !important;
+    font-family: Lucida Bright,Georgia,serif ;
+}
+
+strong{
+    font-size: 55px;
 }
 
 .dark {
@@ -51,26 +72,45 @@ body{
     padding: 10px;
     box-shadow: black 0px 0px 8px 0px;
     text-shadow: 0px 1px 3.5px black;
-    animation: brightness 3s infinite;
+    /*animation: brightness 3s infinite;*/
 }
 
-#commitee {
+.active-15{
+    opacity: 100%;
+    animation: appear15 1.5s forwards;
+}
+
+.active-25{
+    opacity: 100%;
+    animation: appear25 1.75s forwards;
+}
+
+.active-35{
+    opacity: 100%;
+    animation: appear35 1.75s forwards;
+}
+
+#date{
+    font-size: 35px;
+}
+
+#comite {
     height: 1250px;
 }
 
-#contact, #subjects{
+#contacto, #temas{
     height: 320px;
 }
 
-#objective {
+#objetivo {
     height: 425px;
 }
 
-#introduction{
+#introduccion{
     height: 640px;
 }
 
-#calendar {
+#calendario {
     height: 665px;
 }
 
@@ -80,7 +120,7 @@ body{
     width: 100%;
 }
 
-#introduction, #contact{
+#introduccion, #contacto{
     background-color: #040404;
     color: #ece9e8;
 }
@@ -137,9 +177,13 @@ body{
 }
 
 .title{
-    font-weight: bold;
-    font-size: 36px;
-    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.header-space{
+    margin-top: 20px;
+    display: block;
 }
 
 .navbar {
@@ -153,9 +197,9 @@ body{
 }
 
 .register {
-    top: 50px;
+    top: 100px;
     position: relative;
-    text-shadow: 0px 0px 0.5px black;
+    text-shadow: 0px 0px 2px black;
 }
 
 .register .row:nth-child(1) {
@@ -191,11 +235,6 @@ body{
     width: 100%;
   }
 
-  .event-button{
-    width: 60%;
-    height: 50px;
-    padding-top: 15px;
-  }
 
   .button-container{
     margin-top: 20px;
@@ -207,11 +246,46 @@ body{
   }
 
   .register{
-    top: 70px;
+    top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title{
+    font-size: 42px;
+  }
+
+  strong{
+    font-size: 46px;
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .title{
+    font-size: 36px;
+  }
 
+  .register{
+    top: 50px;
+    text-shadow: 0px 0px 1px black;
+  }
+
+  strong{
+    font-size: 40px;
+  }
+
+  .header-space{
+    margin-top: 4px;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .row-button {
+    margin-bottom: 10px;
+  }
+}
 
 @keyframes brightness{
     0%{
@@ -223,5 +297,41 @@ body{
 
     100%{
         filter: brightness(1.2);
+    }
+}
+
+@keyframes appear15{
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes appear25{
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes appear35{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
     }
 }

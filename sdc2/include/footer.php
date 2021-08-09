@@ -6,10 +6,10 @@
             <div class="col-12 col-md-6">    
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img class="logo" alt="logoibero" src="/sdc2/img/logo_ibero.png">
+                        <img class="activate logo" alt="logoibero" src="/sdc2/img/logo_ibero.png">
                     </div>
                     <div class="col-12 col-md-6">
-                        <img class="logo" alt="logocolegionacional" src="/sdc2/img/logo_colegionacional.png">
+                        <img class="activate logo" alt="logocolegionacional" src="/sdc2/img/logo_colegionacional.png">
                     </div>
                 </div>
             </div>
@@ -17,11 +17,11 @@
             <div class="col-12 col-md-6">
                 <div class="row">
                     <div class="col-12 col-md-6">
-        	           <img class="logo" alt="logosomedicyt" src="/sdc2/img/logo_somedicyt.png">	
+        	           <img class="activate logo" alt="logosomedicyt" src="/sdc2/img/logo_somedicyt.png">	
                     </div>
 
         	    <div class="col-12 col-md-6">
-                    <img class="logo" alt="logocentrus" src="/sdc2/img/logo_centrus.png">
+                    <img class="activate logo" alt="logocentrus" src="/sdc2/img/logo_centrus.png">
         	    </div>
 
                 </div>

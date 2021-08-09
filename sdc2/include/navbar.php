@@ -1,6 +1,6 @@
-<nav id ="topbar" class="navbar navbar-expand-md navbar-dark bg-dark dark" align="center">
+<nav id ="topbar" class="navbar navbar-expand-md navbar-dark bg-primary dark" align="center">
     <div class="container">
-      <a class="navbar-brand" pointer="main-header">SDC2</a>
+      <a class="navbar-brand" pointer="main-header">SDC<sub>2</sub></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,16 +10,16 @@
             <div class="nav-link active" aria-current="page" pointer="topbar">Inicio</a>
           </li>
           <li class="nav-item">
-            <div class="nav-link active" pointer="presentacion">Presentación</a>
+            <div class="nav-link active" pointer="introduccion">Introducción</a>
           </li>
           <li class="nav-item">
-            <div class="nav-link active" pointer="objetivos">Objetivos</a>
+            <div class="nav-link active" pointer="objetivo">Objetivo</a>
           </li>
           <li class="nav-item">
             <div class="nav-link active" pointer="temas">Temas</a>
           </li>
           <li class="nav-item">
-            <div class="nav-link active" pointer="fechas">Fechas</a>
+            <div class="nav-link active" pointer="calendario">Calendario</a>
           </li>
           <li class="nav-item">
             <div class="nav-link active" pointer="programa">Programa</a>

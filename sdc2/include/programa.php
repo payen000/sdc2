@@ -1,5 +1,5 @@
-<div id='schedule' title="programa">
-  <hr class='separador' id='programa'>
+<div id='programa' title="programa">
+  <hr class='separador'>
 
   <div class="container">
 
@@ -15,25 +15,36 @@
       <h4>Día 1: Divulgación</h4>
       <div class="card">
         <div class="row card-row">
-          <div class="col-3 col-sm-3">
-            <h5>9:00 - 11:00</h5>
+            
+          <div class="col-3 col-sm-3 lefted">
+            <h5 class="vertical-center">09:00 - 11:00</h5>
           </div>
-          <div class="col-5 col-sm-6">
-
+          <div class="col-6 col-sm-6 lefted">
             <div class="row">
               <div class="col-12 col-lg-6">
-                <h5>Conferencia magistral 1:</h5>
+                <h5 class="vertical-center">Conferencia magistral 1:</h5>
               </div>
               <div class="col-12 col-lg-6">
-                <h5>tema de la conferencia</h5>
+                <h5 class="vertical-center">tema de la conferencia</h5>
               </div>
             </div>
             
           </div>
-          <div class="col-4 col-sm-3 righted">
-             <button class="btn btn-primary card-button" type="button" data-bs-toggle="collapse" data-bs-target="#event1" aria-expanded="false" aria-controls="event1">
-
-             </button>
+          <div class="col-3 col-sm-3 righted">
+            <div class="row vertical-center">
+              
+              <div class="col-12 col-sm-6">
+                <a href="https://es.wikipedia.org" class="btn btn-danger event-button row-button vertical-center" target="_blank" title="link para conferencia">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+                  </svg>
+                </a>    
+              </div>
+              <div class="col-12 col-sm-6">
+                <button class="btn btn-primary card-button row-button vertical-center" type="button" data-bs-toggle="collapse" data-bs-target="#event1" aria-expanded="false" aria-controls="event1" title="expandir información">
+               </button>
+              </div>
+            </div>        
           </div>
         </div>
         <div class="collapse multi-collapse" id="event1">  
@@ -46,16 +57,14 @@
                   </p>
               </div>
               <div class="row card-bottom">
-                <div class="col-12 order-3 col-sm-4 order-sm-1 col-md-5 lefted button-container">
-                  <a href="https://es.wikipedia.org" class="btn btn-primary event-button" target="_blank">ver</a>
+                <div class='col-6 centered speaker'>
+                  <img src='/sdc2/img/person.jpg' style="width:100%">
                 </div>
-                <div class='col-6 order-1 col-sm-5 order-sm-2 col-md-5 righted name'>
+
+                <div class='col-6 lefted name'>
                   Agustín Payen Sandoval <br>
                   Universidad Iberoamericana <br>
                   Programador web
-                </div>
-                <div class='col-6 order-2 col-sm-3 order-sm-3 col-md-2 centered'>
-                  <img src='/sdc2/img/person.jpg' style="width:100%">
                 </div>
               </div>
             </div>
@@ -65,25 +74,36 @@
 
       <div class="card">
         <div class="row card-row">
-          <div class="col-3 col-sm-3">
-            <h5>9:00 - 11:00</h5>
+            
+          <div class="col-3 col-sm-3 lefted">
+            <h5 class="vertical-center">11:00 - 13:00</h5>
           </div>
-          <div class="col-5 col-sm-6">
-
+          <div class="col-6 col-sm-6 lefted">
             <div class="row">
               <div class="col-12 col-lg-6">
-                <h5>Conferencia magistral 1:</h5>
+                <h5 class="vertical-center">Mesa de discusión 1:</h5>
               </div>
               <div class="col-12 col-lg-6">
-                <h5>tema de la conferencia</h5>
+                <h5 class="vertical-center">tema de la mesa de discusión</h5>
               </div>
             </div>
             
           </div>
-          <div class="col-4 col-sm-3 righted">
-             <button class="btn btn-primary card-button" type="button" data-bs-toggle="collapse" data-bs-target="#event2" aria-expanded="false" aria-controls="event2">
-
-             </button>
+          <div class="col-3 col-sm-3 righted">
+            <div class="row vertical-center">
+              
+              <div class="col-12 col-sm-6">
+                <a href="https://es.wikipedia.org" class="btn btn-danger event-button row-button vertical-center" target="_blank" title="link para conferencia">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+                  </svg>
+                </a>    
+              </div>
+              <div class="col-12 col-sm-6">
+                <button class="btn btn-primary card-button row-button vertical-center" type="button" data-bs-toggle="collapse" data-bs-target="#event2" aria-expanded="false" aria-controls="event2" title="expandir información">
+               </button>
+              </div>
+            </div>        
           </div>
         </div>
         <div class="collapse multi-collapse" id="event2">  
@@ -96,71 +116,80 @@
                   </p>
               </div>
               <div class="row card-bottom">
-                <div class="col-12 order-3 col-sm-4 order-sm-1 col-md-5 lefted button-container">
-                  <a href="https://es.wikipedia.org" class="btn btn-primary event-button" target="_blank">ver</a>
+                <div class='col-6 centered speaker'>
+                  <img src='/sdc2/img/person.jpg' style="width:100%">
                 </div>
-                <div class='col-6 order-1 col-sm-5 order-sm-2 col-md-5 righted name'>
+
+                <div class='col-6 lefted name'>
                   Agustín Payen Sandoval <br>
                   Universidad Iberoamericana <br>
                   Programador web
                 </div>
-                <div class='col-6 order-2 col-sm-3 order-sm-3 col-md-2 centered'>
-                  <img src='/sdc2/img/person.jpg' style="width:100%">
-                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-row intermission">
-          <h5>Intermedio</h5>
         </div>
       </div>
 
       <div class="card">
         <div class="row card-row">
-          <div class="col-3 col-sm-3">
-            <h5>15:00 - 17:00</h5>
+            
+          <div class="col-3 col-sm-3 lefted">
+            <h5 class="vertical-center">15:00 - 17:00</h5>
           </div>
-          <div class="col-5 col-sm-6">
+          <div class="col-6 col-sm-6 lefted">
             <div class="row">
               <div class="col-12 col-lg-6">
-                <h5>Documental/otros:</h5>
+                <h5 class="vertical-center">Documental 1:</h5>
               </div>
               <div class="col-12 col-lg-6">
-               <h5>nombre del video/videos</h5>
+                <h5 class="vertical-center">tema del documental</h5>
               </div>
             </div>
+            
           </div>
-          <div class="col-4 col-sm-3 righted">
-             <button class="btn btn-primary card-button" type="button" data-bs-toggle="collapse" data-bs-target="#event3" aria-expanded="false" aria-controls="event3">Expandir</button>
+          <div class="col-3 col-sm-3 righted">
+            <div class="row vertical-center">
+              
+              <div class="col-12 col-sm-6">
+                <a href="https://es.wikipedia.org" class="btn btn-danger event-button row-button vertical-center" target="_blank" title="link para conferencia">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+                  </svg>
+                </a>    
+              </div>
+              <div class="col-12 col-sm-6">
+                <button class="btn btn-primary card-button row-button vertical-center" type="button" data-bs-toggle="collapse" data-bs-target="#event3" aria-expanded="false" aria-controls="event3" title="expandir información">
+               </button>
+              </div>
+            </div>        
           </div>
         </div>
         <div class="collapse multi-collapse" id="event3">  
           <div class="card-body">
-            <div class='row'>
-              <p class="card-text">
-                DESCRIPCIÓN DEL EVENTO
-                Lorem ipsum dolor sit amet consectetur adipiscing elit senectus, maecenas felis laoreet quis habitant suspendisse vestibulum vel, accumsan urna mus ridiculus pretium gravida at. Pharetra ac penatibus dignissim in curae felis convallis tellus dictumst, faucibus platea nostra fringilla hendrerit per facilisis lacinia placerat vestibulum, ut consequat lacus pellentesque odio cras ante accumsan.
-              </p>
-              <div class="col-3 col-sm-4 col-md-5 lefted">
-                <a href="https://es.wikipedia.org" class="btn btn-primary" target="_blank">ver</a>
+            <div class='card-inside'>
+              <div class="card-text">
+                <p class="description">
+                    DESCRIPCIÓN DEL EVENTO 
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit senectus, maecenas felis laoreet quis habitant suspendisse vestibulum vel, accumsan urna mus ridiculus pretium gravida at. Pharetra ac penatibus dignissim in curae felis convallis tellus dictumst, faucibus platea nostra fringilla hendrerit per facilisis lacinia placerat vestibulum, ut consequat lacus pellentesque odio cras ante accumsan.
+                  </p>
               </div>
-              <div class='col-5 col-sm-5 col-md-5 righted name'>
-                Nombre <br>
-                Institución <br>
-                Cargo
-              </div>
-              <div class='col-4 col-sm-3 col-md-2 righted'>
-                <img src='/sdc2/img/person.jpg' style="width:100%">
+              <div class="row card-bottom">
+                <div class='col-6 centered speaker'>
+                  <img src='/sdc2/img/person.jpg' style="width:100%">
+                </div>
+
+                <div class='col-6 lefted name'>
+                  Agustín Payen Sandoval <br>
+                  Universidad Iberoamericana <br>
+                  Programador web
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+   </div> 
     
     <div class="day">
       <h4>Día 2: Mitigación</h4>
@@ -168,7 +197,7 @@
       <div class="card">
         <div class="row card-row">
           <div class="col-3 col-sm-3">
-            <h5>9:00 - 11:00</h5>
+            <h5>09:00 - 11:00</h5>
           </div>
           <div class="col-5 col-sm-6">
             <div class="row">
@@ -249,11 +278,7 @@
         </div>
       </div>
 
-      <div class="card">
-        <div class="card-row intermission">
-          <h5>Intermedio</h5>
-        </div>
-      </div>
+      
 
       <div class="card">
         <div class="row card-row">
@@ -385,11 +410,7 @@
         </div>
       </div>
 
-      <div class="card">
-        <div class="card-row intermission">
-          <h5>Intermedio</h5>
-        </div>
-      </div>
+      
 
       <div class="card">
         <div class="row card-row">

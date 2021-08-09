@@ -11,43 +11,57 @@
         <div class="content">
             <div id='main-header' title="banner">
                 <div class="container">
-                    <div class='register'>
-                        <div class='row'>
-                            <h2 class='title'>2.° Simposio de Divulgación de la ciencia</h2>
-                        </div>
-                        <div class='row'>
-                            <h3 class='title'>una emergencia climática</h3>
-                        </div>
+                    <div id="register" class='row register'>
+                        <h1 class='title active-15' id="regtext">
+                            2.° <strong>Simposio</strong> de <br>
 
-                        <div class='row'>
-                            <h4 class='title'>noviembre 16, 17 y 18</h4>
+                            <strong>Divulgación</strong> de la <strong>Ciencia</strong> 
+
+                            <span class="header-space"></span>
+                            <span class="header-space"></span> 
+
+                            una <strong>emergencia </strong>
+
+                            <br>
+                            climática
+                               
+                            <span class="header-space"></span> 
+                            <span class="header-space"></span>
+                        </h1>
+                        <h2>
+                            <span id="date" class="active-25" title="fecha">
+                                <strong>noviembre</strong> 16, 17 y 18
+                            </span>
+                        </h2>
+
+                        <span class="header-space"></span>
+
+                        <div id="regbutton" class='centered active-35' title="renglón de botón de registro">
+                            <span title="botón de registro">
+                                <a id="registry-button" class="btn btn-primary" href="https://es.wikipedia.org" target="_blank" role="button">Registro</a>
+                            </span>
                         </div>
-                         
-                        <div class='row centered' title="renglón de botón de registro"><span title="botón de registro">
-                            <a id="registry-button" class="btn btn-primary" href="https://es.wikipedia.org" target="_blank" role="button">Registro</a></span>
-                        </div>
-                    
                     </div>
                 </div>
             </div>
 
-            <div id="introduction" title="introducción">
-                <hr class='separador' id='presentacion'>
+            <div id="introduccion" title="introducción">
+                <hr class="separador">
                 <div class="container">
                     <div class="row centered">
-                        <h1 class='section'>Presentación
-                        </h1>
+                        <h2 class='section'><span>Introducción</span></h2>
                     </div>
+
                     <div class="row justified">
                         <span class="date lead">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit tempus maecenas dapibus, lectus purus cursus praesent habitant proin rhoncus curabitur magnis, lacinia laoreet semper litora nisl duis sapien sagittis natoque. In suscipit maecenas nostra ultrices torquent primis scelerisque, penatibus quam tortor eleifend nam venenatis, nec rutrum mollis dapibus turpis vulputate. Praesent potenti inceptos augue proin platea luctus quis, lectus et natoque neque urna conubia a fringilla, magna eget rutrum faucibus ullamcorper pharetra.
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit tempus maecenas dapibus, lectus purus cursus praesent habitant proin rhoncus curabitur magnis, lacinia laoreet semper litora nisl duis sapien sagittis natoque. In suscipit maecenas nostra ultrices torquent primis scelerisque, penatibus quam tortor 
                         </span>
                     </div>
                 </div>
             </div>
 
-            <div id="objective" title="objetivo">
-                <hr class='separador' id='objetivos'>
+            <div id="objetivo" title="objetivo">
+                <hr class="separador">
                 <div class="container">
                     <div  class="row centered">
                         <h2 class='section'><span>Objetivo</span></h2>
@@ -61,8 +75,8 @@
                 </div>
             </div>
             
-            <div id="subjects" title="temas">
-                <hr class='separador' id='temas'>
+            <div id="temas" title="temas">
+                <hr class='separador'>
                 <div class="container">
                     <div class="row centered">
                         <h2 class='section'><span>Temas</span></h2>
@@ -81,8 +95,8 @@
                 </div>
             </div>
 
-            <div id="calendar" title="calendario">
-                <hr class='separador' id='fechas'>
+            <div id="calendario" title="calendario">
+                <hr class='separador'>
 
                 <div class="container">
 
@@ -123,8 +137,8 @@
                 require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/programa.php');
             ?>
            
-            <div id="commitee" title="comité">
-                <hr class='separador' id='comite'>
+            <div id="comite" title="comité">
+                <hr class='separador'>
 
                 <div class="container">
 
@@ -186,8 +200,8 @@
                 </div>
             </div>
 
-            <div id="contact" title="contacto">
-                <hr class='separador' id='contacto'>
+            <div id="contacto" title="contacto">
+                <hr class='separador'>
 
                 <div class="container">
                     <div class="row centered">
@@ -210,6 +224,6 @@
         <?php
             require_once ($_SERVER['DOCUMENT_ROOT'] . '/sdc2/include/footer.php');
         ?>
-    <script src="/sdc2/js/script.js"></script>
+    
     </body>
 </html>
